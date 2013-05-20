@@ -1,4 +1,5 @@
 object @product
+cache @product
 attributes *product_attributes
 child :variants_including_master => :variants do
   attributes *variant_attributes
